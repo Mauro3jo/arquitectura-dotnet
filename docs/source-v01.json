@@ -1,0 +1,193 @@
+{
+  "archive": "Pacagroup.Ecommerce_v01.zip",
+  "archive_sha256": "3af2ea789e77d2b36524b2d58a31aaf4903426743af1f1c4bf0d3ac2d21a1a2b",
+  "framework": "net9.0",
+  "normalization": "UTF-8 without BOM; line endings LF; no semantic edits",
+  "files": [
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.DTO/Class1.cs",
+      "original_sha256": "168e5ccc27cd1fbf99366e486f5463310e44510e381e4499b0bff1daf4eccfc1",
+      "normalized_sha256": "2d21de6099b75104b5068a0a8607a33292bb8ca0bd66ed4c9fa292a5749e3c73"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.DTO/Pacagroup.Ecommerce.Application.DTO.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.IntegrationTest/MSTestSettings.cs",
+      "original_sha256": "68322dad2588cbdf4ac1c615b3f13ba90795f843c10cbd4476fec1ca64d8fccc",
+      "normalized_sha256": "72f34577d30d2f5c78b3c50d2a2d898b52acca841ca165b68e352462f8fe525d"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.IntegrationTest/Pacagroup.Ecommerce.Application.IntegrationTest.csproj",
+      "original_sha256": "bd94068750eff83127d466505b8a7ad7c2a0577cceb07b99ffcf03a7c95b56a2",
+      "normalized_sha256": "4e52690c36fe4a76aca545443b52ba69b29520733fab249a5dbe4014d4c30c73"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.IntegrationTest/Test1.cs",
+      "original_sha256": "c884b8ffe1ab5af7face12fc6bd2f9a46c4316da3a5d7881bbe8aa5088dcbca3",
+      "normalized_sha256": "a0ed64d4ee56f46511ec12236675caa9434075e2244376cd2ce76f85487e6618"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Interface/Class1.cs",
+      "original_sha256": "f90e454d58dade7f5d5654ad99e3a17ece0093716ae7a2cdc565ed5f1cb111d3",
+      "normalized_sha256": "7a99d3df389b8c75faa67eead3e866d6837e367b73bfa6b7bd6eedfbc2cb9fc8"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Interface/Pacagroup.Ecommerce.Application.Interface.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Main/Class1.cs",
+      "original_sha256": "ad4a7ece5ad80fd163f5c677618b85326dfcd9c25a5578d3f8c2640f677158c8",
+      "normalized_sha256": "4baeb2d60915666112bd4057df023837ced791a90262f69aa4e2bbdb54e3461d"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Main/Pacagroup.Ecommerce.Application.Main.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Validator/Class1.cs",
+      "original_sha256": "5cde0aaa00de2c506fc133765247599f660fbf8de6ad8cd592b493f9c8db3104",
+      "normalized_sha256": "63ab4a00703adf0003f5e5691b8f6bcd5d82ce355bed7d1ed6acaa5ec1cb0448"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Validator/Pacagroup.Ecommerce.Application.Validator.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Domain.Core/CustomersDomain.cs",
+      "original_sha256": "ae28b15cf65aa76c0b00a596b847fc6234cb349b20b99f0a93a84b0202f01911",
+      "normalized_sha256": "ff50066c65e7d406f0c9e3be216b5d404215344c20c27cc76de80c9724bdd747"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Domain.Core/Pacagroup.Ecommerce.Domain.Core.csproj",
+      "original_sha256": "8df37c4c642cd63005099318f1cf99708630e78039fd0b20cd3342c35dc92986",
+      "normalized_sha256": "cfd29d6fb24dce022df9f44113798c11a0cfb00854594b46db36dbf937b24c76"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Domain.Entity/Customer.cs",
+      "original_sha256": "0230096335b8f7d82b8edf52f990c4be47d2b13947b21be6a0e0d554cf0171ae",
+      "normalized_sha256": "5b3ed1a96d862e8f8980f0980899acc419f9edfb3907d1502ec49946cdf64107"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Domain.Entity/Pacagroup.Ecommerce.Domain.Entity.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Domain.Interface/ICustomersDomain.cs",
+      "original_sha256": "647330b77e142f0ef9b3b4d3ba7e623d60485bbfbb0e2e246a588916b7ffd597",
+      "normalized_sha256": "efc1e1af2890b4ca804951f60d33de2b720cf70520ab370fc7f6361d3cd3bb0d"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Domain.Interface/Pacagroup.Ecommerce.Domain.Interface.csproj",
+      "original_sha256": "5f4609545d3a824a5286b6c8324cc989eb051159eeb94df4572b45156d26ee22",
+      "normalized_sha256": "67f008a18940abe605bde03c2aed4f48a3065d661db89d474531f85d1fc2b99d"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Data/Class1.cs",
+      "original_sha256": "e12fa6aa4cdbe9443b515b214dc2e9b9c1acb17ab7897747799f99545f4a5e63",
+      "normalized_sha256": "4f59d9fc152712ab83c3f247331e1c3157a82076dfec4ab628297d2f008e6fa8"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Data/Pacagroup.Ecommerce.Infrastructure.Data.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Interface/Class1.cs",
+      "original_sha256": "67aa10201c6f7a5485471f53d48c6aad22a8210d753512b2bc07d05c6f452ee1",
+      "normalized_sha256": "98fe8c5ebfca0670b49a385f3ad30b60de57f5767bea07cd2822e917e321cb32"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Interface/Pacagroup.Ecommerce.Infrastructure.Interface.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Repository/Class1.cs",
+      "original_sha256": "d3808cbbb742f20fe11f70d12e9a5fb988d456d922810e30b4f3d767791a53b1",
+      "normalized_sha256": "28ffba4dfaa024e6ce79da4574c24b4b8f860265f8c266a1035322609613d949"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Repository/Pacagroup.Ecommerce.Infrastructure.Repository.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/Controllers/WeatherForecastController.cs",
+      "original_sha256": "1fd9911de24d23f2d61dcc6bff12ad651794ca7937f71c5d908a97efd1dcc189",
+      "normalized_sha256": "52c5258002e3413e7b25a5786825b943dbc214794492511a03a6cba8e6be2d89"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/Pacagroup.Ecommerce.Services.WebApi.csproj",
+      "original_sha256": "aa85d7cefe786aa3cde028a48f73c5c1cf981c33c6d4c27e8061051ae222a1ff",
+      "normalized_sha256": "f6afc912bf4f7c269a86a187cd19f7dd9ee1c8a4315c4ef3a7617ac24f69d53a"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/Program.cs",
+      "original_sha256": "92ee07c6fe94e78b7ea01e831f58357dc8c15bb9f54d1ac45af5a68783532d3b",
+      "normalized_sha256": "a0f0da8b11f36c155b879813a63993f1c486a894f269a810e89cf41ee8083e85"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/Properties/launchSettings.json",
+      "original_sha256": "0cddc58e56e9aa5a4e8fdab74cf4580e3719ab16c75207dbf886808f68a728bd",
+      "normalized_sha256": "c8efd2d6933559ed125dacc24cd6f5b3652ce56c907e540fe8de96a8392eaab3"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/WeatherForecast.cs",
+      "original_sha256": "3d5ae7764750061ac9df95c6122fe48fe7abacfd23540df8185a6638bd412fe0",
+      "normalized_sha256": "a149383578574aca2d80ec3f523c57359f11e9fdc3d210414be0af7a2b44e5be"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/appsettings.Development.json",
+      "original_sha256": "73f95f9e0ceb205fc1c4dc50c07697fcfa29d7087868c2aef1d504cb38c771ec",
+      "normalized_sha256": "817db0bf2ecca78364c41dbaf7949bf2504cf47a1c3d0d54f3be8178fefc030b"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/appsettings.json",
+      "original_sha256": "200332b434757a0054a3d356c91cde01f2c48712be8aa2bcb0f3e973619f06e3",
+      "normalized_sha256": "2d8bb40059df22089b94c025be8baad5a869b72d4d755d199c872f03bfe6f225"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Transversal.Common/Class1.cs",
+      "original_sha256": "760373f6c430f4c076fe3f7e3713c316d8c04a4bf6c5c5743bcbc87803d9215b",
+      "normalized_sha256": "50994db6d4f10a75076deaf640d57df2973263b061f4c5f8992214bb0f30cab7"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Transversal.Common/Pacagroup.Ecommerce.Transversal.Common.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Transversal.Logging/Class1.cs",
+      "original_sha256": "e3a2ca8224a02cb376cbf3060048edffdd3b6e3d600bf46270e9ef4f3f9e6b3c",
+      "normalized_sha256": "35a1a2e416ff371a5cf3ed05560726e11188179316e200cc20c183e41e0916ae"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Transversal.Logging/Pacagroup.Ecommerce.Transversal.Logging.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Transversal.Mapper/Class1.cs",
+      "original_sha256": "7d198d45ddf3f3ce6c1647fddc36b8b4bb0376a7b9dd7f63b592cbb04992f1e3",
+      "normalized_sha256": "dcce521f519d10a215327d0ab851ae70dbe6efb0d3c6c7d0560b40ff08fc7818"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Transversal.Mapper/Pacagroup.Ecommerce.Transversal.Mapper.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.sln",
+      "original_sha256": "586ab53253ead617f61163921d7963a1f997d506ba4b1db01a4154aa550f7f0c",
+      "normalized_sha256": "491596292b72cd1df035dcf6d7cdc11b7a5294fe83a1efc83c8b199cde250a35"
+    }
+  ]
+}
