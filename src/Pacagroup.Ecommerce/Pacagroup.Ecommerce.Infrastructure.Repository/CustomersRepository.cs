@@ -32,7 +32,7 @@ namespace Pacagroup.Ecommerce.Infrastructure.Repository
             var parameters = new DynamicParameters();
             parameters.Add("CustomerID", customerId);
 
-            var customer = await connection.QuerySingleAsync<Customer>(query, param: parameters, commandType: CommandType.StoredProcedure);
+            var customer = await connection.QuerySingleOrDefaultAsync<Customer>(query, param: parameters, commandType: CommandType.StoredProcedure);
 
             return customer;
         }

@@ -1,0 +1,402 @@
+{
+  "archive": "Pacagroup.Ecommerce_v08.zip",
+  "archive_sha256": "0010f9c9687ca6066485a4503122564dbbb9c0f5bc7517ae4ed3be16103a52fb",
+  "framework": "net9.0",
+  "previous_stage": "v07",
+  "removed_placeholders_or_example_files": [
+    "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/Controllers/WeatherForecastController.cs",
+    "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/WeatherForecast.cs"
+  ],
+  "files": [
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.DTO/CustomerDto.cs",
+      "original_sha256": "b0c10ea2dafc4f9ad10eafe714e5bc231a3b782047352c2f09e4651cf99a1cb8",
+      "normalized_sha256": "6ac9f3f4c3c6d66fac250de5251571e72c8e19f969c03d49b1a22e78af44c853",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.DTO/Pacagroup.Ecommerce.Application.DTO.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.IntegrationTest/MSTestSettings.cs",
+      "original_sha256": "68322dad2588cbdf4ac1c615b3f13ba90795f843c10cbd4476fec1ca64d8fccc",
+      "normalized_sha256": "72f34577d30d2f5c78b3c50d2a2d898b52acca841ca165b68e352462f8fe525d",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.IntegrationTest/Pacagroup.Ecommerce.Application.IntegrationTest.csproj",
+      "original_sha256": "bd94068750eff83127d466505b8a7ad7c2a0577cceb07b99ffcf03a7c95b56a2",
+      "normalized_sha256": "4e52690c36fe4a76aca545443b52ba69b29520733fab249a5dbe4014d4c30c73",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.IntegrationTest/Test1.cs",
+      "original_sha256": "c884b8ffe1ab5af7face12fc6bd2f9a46c4316da3a5d7881bbe8aa5088dcbca3",
+      "normalized_sha256": "a0ed64d4ee56f46511ec12236675caa9434075e2244376cd2ce76f85487e6618",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Interface/ICustomersApplication.cs",
+      "original_sha256": "9affdf3ff45e2a88118f488f2040e9d1f8c459d4114365f84db2f10004d30a66",
+      "normalized_sha256": "5ce1ac605a9101e7dc6eaaf38ff00bee8bcbef474cb10ca0b942ba6e92dc809a",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Interface/Pacagroup.Ecommerce.Application.Interface.csproj",
+      "original_sha256": "534644b58832f6fc49343059c81a3318fd3cc34f5e0c43064473332d9fed165e",
+      "normalized_sha256": "0e46e6061c264dac6f756c7659c0d33f9bc856488b3c3287ae8a6b01990742a3",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Main/Commons/MappingsProfile.cs",
+      "original_sha256": "afd9e0dd756389010ead1e2e723780afedf3fff1be7e7f520c14e086de15f153",
+      "normalized_sha256": "01f66b0f9c8fdc1e8c2a4d449d815ff625e8e9682beb630fe07f62e318025039",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Main/ConfigureServices.cs",
+      "original_sha256": "25b1bad256eeba0474bdb8c868544c858dbeab3595af62189e74f8c1c77b7a16",
+      "normalized_sha256": "21b338276e54f0f79ff4ae01a36121170714a65f83a1a3281d18e3e18ba4d004",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Main/CustomersApplication.cs",
+      "original_sha256": "276f9e9b4bf5b641b7443eac4d0078ff80c41459141fd8cd0a444ffae6ccb3c2",
+      "normalized_sha256": "5c881394ef49a6d041512acf9ce1273d7393bf100fb16186bae294037fdf4add",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings",
+        "trailing formatting whitespace removed"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Main/Pacagroup.Ecommerce.Application.Main.csproj",
+      "original_sha256": "2b53ccfc165275035ebbdba3cb0aa3f95308e41f5a773193879de187aa0d3b39",
+      "normalized_sha256": "097125bc8f35ef05f94d4cccb251aa264c4e6bcf4e72ba97ce79294e6c0df649",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Validator/Class1.cs",
+      "original_sha256": "5cde0aaa00de2c506fc133765247599f660fbf8de6ad8cd592b493f9c8db3104",
+      "normalized_sha256": "63ab4a00703adf0003f5e5691b8f6bcd5d82ce355bed7d1ed6acaa5ec1cb0448",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Validator/Pacagroup.Ecommerce.Application.Validator.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Domain.Core/ConfigureServices.cs",
+      "original_sha256": "c6a0b53a8d2f77919cda732b3cd70290f7a6037292a3e1caa4b20def2e734e76",
+      "normalized_sha256": "d542e701f950f3a96196a6dd7a3328b365d15e49b8d85ac4bfbd1d538b2d0023",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Domain.Core/CustomersDomain.cs",
+      "original_sha256": "1b1cbcde1c25ce1044ee811d8846abbd340ac9e90023d9874b94998e83b88d9a",
+      "normalized_sha256": "4b01be062ecd53b8dab6ea78c9fd85c9b3e333e10cbda80cf4e38e078b02be76",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Domain.Core/Pacagroup.Ecommerce.Domain.Core.csproj",
+      "original_sha256": "796263ecb7af038800ecead55236cc204181556c88be6d74df4dd2333627a995",
+      "normalized_sha256": "f613cde0c316a2815052da58eb3cf092725ae4dc8f388a84261dd0dd943f72f4",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Domain.Entity/Customer.cs",
+      "original_sha256": "0230096335b8f7d82b8edf52f990c4be47d2b13947b21be6a0e0d554cf0171ae",
+      "normalized_sha256": "5b3ed1a96d862e8f8980f0980899acc419f9edfb3907d1502ec49946cdf64107",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Domain.Entity/Pacagroup.Ecommerce.Domain.Entity.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Domain.Interface/ICustomersDomain.cs",
+      "original_sha256": "647330b77e142f0ef9b3b4d3ba7e623d60485bbfbb0e2e246a588916b7ffd597",
+      "normalized_sha256": "efc1e1af2890b4ca804951f60d33de2b720cf70520ab370fc7f6361d3cd3bb0d",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Domain.Interface/Pacagroup.Ecommerce.Domain.Interface.csproj",
+      "original_sha256": "5f4609545d3a824a5286b6c8324cc989eb051159eeb94df4572b45156d26ee22",
+      "normalized_sha256": "67f008a18940abe605bde03c2aed4f48a3065d661db89d474531f85d1fc2b99d",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Data/DapperContext.cs",
+      "original_sha256": "23a5ec2c6e5ff7423a82e1d55e81f887554bdbff23d96f97f02590eba27af04f",
+      "normalized_sha256": "9939fb096bcef1717184d0c8edf2b173326fa265da96a7fc47b7e1c54c39af2f",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Data/Pacagroup.Ecommerce.Infrastructure.Data.csproj",
+      "original_sha256": "3dc249fdd1e5640556335741d78f8366f528651597b48cdb21f82bb3b3ea4dc4",
+      "normalized_sha256": "935e34e3451ec0932b37006b04eee15a942f36c08fc7d2e9f07aab154ea0a2fd",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Interface/ICustomersRepository.cs",
+      "original_sha256": "f250a0d8a50ee95793f34db495f447c27a91d615a82024acbb33c4992bd32b43",
+      "normalized_sha256": "a280c6b7519608b36ecbe19f4bf69a1de8cdb0607f2cee65e70c2d4481558aa8",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Interface/IGenericRepository.cs",
+      "original_sha256": "d6f80ce2bfff7a9b1af5af9bb1ae973065437d195356b4f27e075947232e1b44",
+      "normalized_sha256": "2539ea221881286456e00e81c473cc3cffcdc130cb6176abe940fcb9f1c44d7b",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Interface/IUnitOfWork.cs",
+      "original_sha256": "0054d4199bb4abe2a5ffb478d5269adfad4fc9de0ae206080e2ea608976f1a4f",
+      "normalized_sha256": "86e9c69c1eb08961a85a770f5b4dc1391338030cc6d27d5f08e3bc2d794c9d9e",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Interface/Pacagroup.Ecommerce.Infrastructure.Interface.csproj",
+      "original_sha256": "5f4609545d3a824a5286b6c8324cc989eb051159eeb94df4572b45156d26ee22",
+      "normalized_sha256": "67f008a18940abe605bde03c2aed4f48a3065d661db89d474531f85d1fc2b99d",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Repository/ConfigureServices.cs",
+      "original_sha256": "a6f94a8512091015712bf763f57dbfc828c463993b92f6eb010b8dfe2ad5ecd5",
+      "normalized_sha256": "1a129af632cbccfb39e99127d94d762e789a23c975772a57bf053a174fbf3c70",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Repository/CustomersRepository.cs",
+      "original_sha256": "8f45130f0a054112b0450372e9d790d6eeb256a670dac114b09258f924da6354",
+      "normalized_sha256": "e3724c2762ef119d5beef2ffbbf40c107042dd4e23ce5cf8140c5c09e80ccf71",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings",
+        "trailing formatting whitespace removed"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Repository/Pacagroup.Ecommerce.Infrastructure.Repository.csproj",
+      "original_sha256": "10aa4eee323088fcd113c3bed9eac5034b434f176b2b6320328009ebdaafbfa0",
+      "normalized_sha256": "adc6b875655a1c9931dddade2706c46ebda439dac4c47f37123c3b682141a67d",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Repository/UnitOfWork.cs",
+      "original_sha256": "7e48411274c5af1f713d3bb1f5f1fafe0ef8842dc3a0a45735a3167cdf9c2e4a",
+      "normalized_sha256": "ef08da22b6d65911e90c24c759083b56273c2cf26c58643b7837c3f862783ec2",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/Controllers/CustomersController.cs",
+      "original_sha256": "88d531c5babf2cdb776c6b3e6c17b35e3fcbc7b62bf96e6c401f406318ccddc9",
+      "normalized_sha256": "a5e52275eb5476fd02d4e286630fb9a0fc76d2d06d28cc7ea5c80d2e45b50099",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/Pacagroup.Ecommerce.Services.WebApi.csproj",
+      "original_sha256": "e8ee2377c878f5978e6b901bba662ff62d1209c1dd16c35ecef43592c402b81c",
+      "normalized_sha256": "56aa0fabfe2bdfb5650325e3626d9baf0bdbbdf7c2c194ca6ad49a9241bfa2c5",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/Program.cs",
+      "original_sha256": "235cbc8010503482467738dee0cda663fe655472ce3bc583b055637eed1c7cdd",
+      "normalized_sha256": "a5d7ed7a23a35734e32149fb4922329a41ec443aee91baf75e63a213440cc540",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/Properties/launchSettings.json",
+      "original_sha256": "0cddc58e56e9aa5a4e8fdab74cf4580e3719ab16c75207dbf886808f68a728bd",
+      "normalized_sha256": "c8efd2d6933559ed125dacc24cd6f5b3652ce56c907e540fe8de96a8392eaab3",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/appsettings.Development.json",
+      "original_sha256": "73f95f9e0ceb205fc1c4dc50c07697fcfa29d7087868c2aef1d504cb38c771ec",
+      "normalized_sha256": "817db0bf2ecca78364c41dbaf7949bf2504cf47a1c3d0d54f3be8178fefc030b",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi/appsettings.json",
+      "original_sha256": "b6c2216b4ad0608463860f1784ffd67124863ee413b3255edd259d2fe6ab9de0",
+      "normalized_sha256": "a993184686736a64872cf72d5441060a01f250943f46b31dd076f27136db0371",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings",
+        "sanitized ConnectionStrings:NorthwindConnection"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Transversal.Common/Pacagroup.Ecommerce.Transversal.Common.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Transversal.Common/Response.cs",
+      "original_sha256": "526c189c6d754befa1c678125609e0de906056845ec9f997fc0bc7695a28fd1a",
+      "normalized_sha256": "972f78a4af34edf23bb46eb5a32864400784d8edf249b845bd50d5dfa16859c5",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Transversal.Logging/Class1.cs",
+      "original_sha256": "e3a2ca8224a02cb376cbf3060048edffdd3b6e3d600bf46270e9ef4f3f9e6b3c",
+      "normalized_sha256": "35a1a2e416ff371a5cf3ed05560726e11188179316e200cc20c183e41e0916ae",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Transversal.Logging/Pacagroup.Ecommerce.Transversal.Logging.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Transversal.Mapper/Class1.cs",
+      "original_sha256": "7d198d45ddf3f3ce6c1647fddc36b8b4bb0376a7b9dd7f63b592cbb04992f1e3",
+      "normalized_sha256": "dcce521f519d10a215327d0ab851ae70dbe6efb0d3c6c7d0560b40ff08fc7818",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Transversal.Mapper/Pacagroup.Ecommerce.Transversal.Mapper.csproj",
+      "original_sha256": "4d29c3a189c0733e1a32b231953bc515877a4a26f81b22bca995551a432b2c61",
+      "normalized_sha256": "cbf674bae8e0b087414641d3e9fd04d4f7343d6720413e410cfdf359087f9710",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.sln",
+      "original_sha256": "586ab53253ead617f61163921d7963a1f997d506ba4b1db01a4154aa550f7f0c",
+      "normalized_sha256": "491596292b72cd1df035dcf6d7cdc11b7a5294fe83a1efc83c8b199cde250a35",
+      "transformations": [
+        "UTF-8 without BOM",
+        "LF line endings"
+      ]
+    }
+  ]
+}

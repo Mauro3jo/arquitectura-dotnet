@@ -11,3 +11,6 @@ La finalizaciÃ³n del curso fue declarada por Mauro. El repositorio refleja sol
 - v06: importado del recurso homónimo. Build Release y test de plantilla correctos; CRUD SQL real y regresiones en todas las capas disponibles, DI y HTTP/OpenAPI del scaffold verificados.
 - Advertencia de seguridad del material: AutoMapper 14.0.0 reporta CVE-2026-32933 (alto). Estas versiones son snapshots educativos, no aptos para desplegar sin corregir. Referencia: https://github.com/advisories/GHSA-rvv3-g6hj-g44x.
 - v07: importado del recurso homónimo. Build Release y test de plantilla correctos; CRUD SQL real y regresiones en todas las capas disponibles, DI y HTTP/OpenAPI del scaffold verificados.
+
+- v08: API Customers y configuración saneada. Build Release sin errores; conserva advertencias de nulabilidad y AutoMapper del material. Test de plantilla, CRUD HTTP real, listado/actualización persistidos, OpenAPI y rechazo de identificador inconsistente verificados.
+- Límites observados en v08: duplicado de cliente devuelve 500; lectura de cliente inexistente devuelve 200, IsSuccess=true y Data=null; borrado repetido devuelve 200, IsSuccess=true y Data=false. Se preservan como comportamiento del recurso, no como buenas prácticas de API.

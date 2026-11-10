@@ -51,6 +51,11 @@ namespace Pacagroup.Ecommerce.Application.Main
                     response.IsSuccess = true;
                     response.Message = "Actualización Exitosa!!!";
                 }
+                else
+                {
+                    response.IsSuccess = true;
+                    response.Message = $"Cliente {customersDto.CustomerId} no existe!!!";
+                }
             }
             catch (Exception e)
             {
@@ -70,6 +75,11 @@ namespace Pacagroup.Ecommerce.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Eliminación Exitosa!!!";
+                }
+                else
+                {
+                    response.IsSuccess = true;
+                    response.Message = $"Cliente {customerId} no existe!!!";
                 }
             }
             catch (Exception e)
@@ -91,6 +101,11 @@ namespace Pacagroup.Ecommerce.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
+                }
+                else
+                {
+                    response.IsSuccess = true;
+                    response.Message = $"Cliente {customerId} no existe!!!";
                 }
             }
             catch (Exception e)
