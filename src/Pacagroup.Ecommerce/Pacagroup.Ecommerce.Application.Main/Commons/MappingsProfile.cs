@@ -9,6 +9,7 @@ namespace Pacagroup.Ecommerce.Application.Main.Commons
         public MappingsProfile()
         {
             CreateMap<Customer, CustomerDto>().ReverseMap();
+            CreateMap<User, SignUpDto>().ReverseMap();
 
             //CreateMap<Customer, CustomerDto>().ReverseMap()
             //.ForMember(destination => destination.CustomerId, source => source.MapFrom(src => src.CustomerId))

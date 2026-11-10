@@ -8,6 +8,8 @@ namespace Pacagroup.Ecommerce.Domain.Core
         public static IServiceCollection AddDomainServices(this IServiceCollection services)
         {
             services.AddScoped<ICustomersDomain, CustomersDomain>();
+            services.AddScoped<IUsersDomain, UsersDomain>();
+
             return services;
         }
     }
