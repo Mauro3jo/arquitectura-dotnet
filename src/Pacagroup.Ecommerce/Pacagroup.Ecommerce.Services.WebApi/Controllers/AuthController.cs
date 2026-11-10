@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Pacagroup.Ecommerce.Application.DTO;
 using Pacagroup.Ecommerce.Application.Interface;
@@ -6,6 +6,7 @@ using Swashbuckle.AspNetCore.Annotations;
 
 namespace Pacagroup.Ecommerce.Services.WebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     [SwaggerTag("Operaciones de Autenticación")]
@@ -18,6 +19,7 @@ namespace Pacagroup.Ecommerce.Services.WebApi.Controllers
             _authApplication = authApplication;
         }
 
+        [AllowAnonymous]
         [HttpPost("SignUp")]
         [SwaggerOperation(Summary = "Registra un nuevo usuario")]
         public async Task<IActionResult> SignUpAsync([FromBody] SignUpDto signUpDto)
@@ -30,6 +32,7 @@ namespace Pacagroup.Ecommerce.Services.WebApi.Controllers
             return BadRequest(response);
         }
 
+        [AllowAnonymous]
         [HttpPost("SignIn")]
         [SwaggerOperation(Summary = "Autentica un usuario y genera token")]
         public async Task<IActionResult> SignInAsync([FromBody] SignInDto signInDto)

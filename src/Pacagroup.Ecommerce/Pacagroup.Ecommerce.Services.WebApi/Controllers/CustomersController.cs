@@ -4,9 +4,11 @@ using Pacagroup.Ecommerce.Application.Interface;
 using System.Net;
 using Swashbuckle.AspNetCore.Annotations;
 using Pacagroup.Ecommerce.Transversal.Common;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Pacagroup.Ecommerce.Services.WebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     [SwaggerTag("Operaciones relacionadas con Clientes")]

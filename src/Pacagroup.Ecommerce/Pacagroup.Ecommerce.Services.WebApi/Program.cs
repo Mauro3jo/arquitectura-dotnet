@@ -2,6 +2,7 @@ using Pacagroup.Ecommerce.Domain.Core;
 using Pacagroup.Ecommerce.Infrastructure.Repository;
 using Pacagroup.Ecommerce.Application.Main;
 using Pacagroup.Ecommerce.Services.WebApi.Modules.Swagger;
+using Pacagroup.Ecommerce.Services.WebApi.Modules.Authentication;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,9 @@ builder.Services.AddOpenApi();
 builder.Services.AddDomainServices();
 builder.Services.AddInfrastructureServices();
 builder.Services.AddApplicationServices();
+
+// Add extension methods.
+builder.Services.AddAuth(builder.Configuration);
 builder.Services.AddSwagger();
 
 var app = builder.Build();
@@ -33,7 +37,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
