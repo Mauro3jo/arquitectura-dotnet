@@ -1,0 +1,12 @@
+{
+  "source_sha256": {
+    "objects.sql": "f0cd88385b11dbc1cf71ac92d70b1edd5dbfea491f867706baab5c9b5089c869",
+    "Users-Objects.sql": "2321fb1ddfc2b104a833f4a634502d7b59967d57062562b0cdba46c17afe7751"
+  },
+  "transformations": [
+    "Customer procedures copied without seed data; minimal Customers schema reconstructed from column contracts.",
+    "Removed USE Northwind and CREATE DATABASE; caller selects a new practice database.",
+    "Added SQLCMD stop-on-error and existing-object guards; Users procedures use CREATE instead of CREATE OR ALTER.",
+    "Normalized UTF-8 and LF."
+  ]
+}
