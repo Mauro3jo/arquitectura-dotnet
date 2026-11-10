@@ -4,6 +4,7 @@ using Pacagroup.Ecommerce.Application.Interface;
 using Pacagroup.Ecommerce.Domain.Entity;
 using Pacagroup.Ecommerce.Domain.Interface;
 using Pacagroup.Ecommerce.Transversal.Common;
+using Pacagroup.Ecommerce.Transversal.Logging;
 
 namespace Pacagroup.Ecommerce.Application.Main
 {
@@ -12,12 +13,14 @@ namespace Pacagroup.Ecommerce.Application.Main
         private readonly IUsersDomain _usersDomain;
         private readonly IJwtService _jwtService;
         private readonly IMapper _mapper;
+        private readonly IAppLogger<AuthApplication> _logger;
 
-        public AuthApplication(IUsersDomain usersDomain, IJwtService jwtService, IMapper mapper)
+        public AuthApplication(IUsersDomain usersDomain, IJwtService jwtService, IMapper mapper, IAppLogger<AuthApplication> logger)
         {
             _usersDomain = usersDomain;
             _jwtService = jwtService;
             _mapper = mapper;
+            _logger = logger;
         }
 
         public async Task<Response<TokenDto>> SignInAsync(SignInDto signInDto)
@@ -30,6 +33,7 @@ namespace Pacagroup.Ecommerce.Application.Main
                 if (user == null)
                 {
                     response.Message = "Email no existe o no se encuentra registrado";
+                    _logger.LogError("Failed to validate email. Error: {Message}", response.Message);
                     return response;
                 }
 

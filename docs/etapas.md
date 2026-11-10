@@ -20,3 +20,7 @@ La finalizaciÃ³n del curso fue declarada por Mauro. El repositorio refleja sol
 - v11: build Release sin errores y test original correctos; CRUD HTTP SQL real, documentación y regresiones verificados. Se mantienen las advertencias y limitaciones de los recursos, sin declarar preparación para producción.
   Signup/signin, rechazo de usuario duplicado y de credenciales inválidas verificados con cuentas sintéticas; secretos provistos sólo al proceso de prueba.
   Autorización: anónimo y token inválido reciben 401; token válido permite el CRUD.
+- v12: build Release sin errores y test original correctos; CRUD HTTP SQL real, documentación y regresiones verificados. Se mantienen las advertencias y limitaciones de los recursos, sin declarar preparación para producción.
+  Signup/signin, rechazo de usuario duplicado y de credenciales inválidas verificados con cuentas sintéticas; secretos provistos sólo al proceso de prueba.
+  Autorización: anónimo y token inválido reciben 401; token válido permite el CRUD.
+  Logging: error sintético persistido en archivo local y tabla Logs de la instancia aislada.

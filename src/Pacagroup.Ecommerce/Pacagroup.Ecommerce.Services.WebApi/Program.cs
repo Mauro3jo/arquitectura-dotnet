@@ -3,6 +3,8 @@ using Pacagroup.Ecommerce.Infrastructure.Repository;
 using Pacagroup.Ecommerce.Application.Main;
 using Pacagroup.Ecommerce.Services.WebApi.Modules.Swagger;
 using Pacagroup.Ecommerce.Services.WebApi.Modules.Authentication;
+using Serilog;
+using Pacagroup.Ecommerce.Transversal.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +17,8 @@ builder.Services.AddOpenApi();
 builder.Services.AddDomainServices();
 builder.Services.AddInfrastructureServices();
 builder.Services.AddApplicationServices();
+builder.Services.AddTransversalServices(builder.Configuration);
+builder.Host.UseSerilog();
 
 // Add extension methods.
 builder.Services.AddAuth(builder.Configuration);
@@ -36,10 +40,23 @@ if (app.Environment.IsDevelopment())
     //app.MapOpenApi();
 }
 
+app.UseSerilogRequestLogging();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+try
+{
+    Log.Information("Starting Pacagroup.Ecommerce API");
+    app.Run();
+}
+catch (Exception ex)
+{
+    Log.Fatal(ex, "Application terminated unexpectedly");
+}
+finally
+{
+    Log.CloseAndFlush();
+}
