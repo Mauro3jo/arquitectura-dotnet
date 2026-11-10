@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-10",
+  "base": "source-v12.json",
+  "reason": "Separate dependency security correction; historical source manifests retained.",
+  "files": [
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Application.Main/Pacagroup.Ecommerce.Application.Main.csproj",
+      "v12_sha256": "55b9091525a8c5f306d37c418f853abc50e846690cf1667f96e5337c8676b07e",
+      "patched_sha256": "71c882ffb69a871ff64920652e54dd6ef21fe39199108d852c6dcda2b9c74b49"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Data/Pacagroup.Ecommerce.Infrastructure.Data.csproj",
+      "v12_sha256": "6f496f555f8d39597457a8dddb30a26ca444ebf1ae7de5fa61e086b851b0ef5a",
+      "patched_sha256": "34eca46cc57ee9540f95a05214b7a00198c56a14ae808d53f00b590a319e0964"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Infrastructure.Repository/Pacagroup.Ecommerce.Infrastructure.Repository.csproj",
+      "v12_sha256": "50f981fa3598157b7d5078281cdf919648fa7ca957e34ebd91a58b18614bb333",
+      "patched_sha256": "ff8183304a2198afa04de5c187c438d9d7efabcec2f5ff7cc4b9a693588f5a60"
+    },
+    {
+      "path": "src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Transversal.Logging/Pacagroup.Ecommerce.Transversal.Logging.csproj",
+      "v12_sha256": "1b377b86f8f2e9ebccc54ceade1b88c80123d438a6b9e6a1dde97f213f9011c1",
+      "patched_sha256": "adecede70e8bed82b5694c165646d68525ff46356c9c517987dd538c598e012c"
+    }
+  ]
+}
