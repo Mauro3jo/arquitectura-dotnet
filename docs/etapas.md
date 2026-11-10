@@ -8,3 +8,5 @@ Cada etapa se valida antes de su commit y push. Las pruebas adicionales usan una
 La finalizaciÃ³n del curso fue declarada por Mauro. El repositorio refleja solamente los recursos reconstruidos y comprobados.
 - v04: importado del recurso homónimo. Build Release y test de plantilla correctos; CRUD SQL real y regresiones en todas las capas disponibles, DI y HTTP/OpenAPI del scaffold verificados.
 - v05: importado del recurso homónimo. Build Release y test de plantilla correctos; CRUD SQL real y regresiones en todas las capas disponibles, DI y HTTP/OpenAPI del scaffold verificados.
+- v06: importado del recurso homónimo. Build Release y test de plantilla correctos; CRUD SQL real y regresiones en todas las capas disponibles, DI y HTTP/OpenAPI del scaffold verificados.
+- Advertencia de seguridad del material: AutoMapper 14.0.0 reporta CVE-2026-32933 (alto). Estas versiones son snapshots educativos, no aptos para desplegar sin corregir. Referencia: https://github.com/advisories/GHSA-rvv3-g6hj-g44x.
