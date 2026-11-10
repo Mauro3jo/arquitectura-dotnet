@@ -1,3 +1,5 @@
+> Informe histórico de v01–v02. La continuación actual se documenta en [etapas](etapas.md).
+
 # Validación de la reconstrucción
 
 Fecha: 2026-11-09. Entorno: Windows, SDK 10.0.403, runtime ASP.NET Core 9 disponible. Destino original `net9.0`, sin actualizar dependencias.

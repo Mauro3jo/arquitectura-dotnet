@@ -1,52 +1,31 @@
 # Arquitectura de aplicaciones con .NET
 
-Reconstrucción de práctica del curso **Arquitectura de Aplicaciones Empresariales con .NET 10**, de **Alex Espejo Chavarría** en Udemy. El código de partida proviene de los materiales del instructor; este repositorio no atribuye su autoría original al alumno ni afirma que el curso esté terminado.
+Práctica reconstruida progresivamente a partir del curso **Arquitectura de Aplicaciones Empresariales con .NET 10**, de **Alex Espejo Chavarría** en Udemy. El código original de los recursos pertenece a su autor; los commits documentan esta reconstrucción con fechas reales.
 
-## Alcance publicado
+## Estado
 
-Se conserva la base **.NET 9** de `Pacagroup.Ecommerce_v01.zip` y `Pacagroup.Ecommerce_v02.zip`:
+Mauro informó el 10 de noviembre de 2026 que terminó el curso. Esa declaración amplía el alcance de la reconstrucción; no se ha comprobado un certificado o porcentaje actual en Udemy.
 
-- Estructura de la solución por capas.
-- Entidad `Customer` y contratos de dominio.
-- Registro de dependencias del dominio con ciclo de vida scoped.
-- Web API y prueba de plantilla originales.
+Se continúa la secuencia moderna de materiales **.NET 9**. El estado del código y la validación de cada etapa están en [etapas](docs/etapas.md). Los ZIP legacy no se mezclan automáticamente con esta solución.
 
-El temario sitúa estas etapas antes de la clase 22, dedicada a implementar Repository. La reconstrucción se detiene conservadoramente después de los contenidos de la clase 20. Una observación histórica ubicó la reproducción en la 22, pero no demuestra que estuviera completada ni el avance actual. Ver [trazabilidad](docs/trazabilidad.md).
+El título actual del curso menciona .NET 10; estos recursos siguen apuntando a net9.0. No se han actualizado versiones por fuera de la etapa correspondiente.
 
-**No es un e-commerce terminado.** Los cinco métodos de `CustomersDomain` siguen arrojando `NotImplementedException` porque así está el material de esta etapa. No se incluyen Repository, UnitOfWork, CRUD de clientes, autenticación, conexión a base de datos ni secciones posteriores.
+## Ejecutar y configurar
 
-## Ejecutar
-
-Requisitos: SDK de .NET compatible con `net9.0` y runtime ASP.NET Core 9. Se validó con SDK 10.0.403 y runtime 9 instalado. El framework y los paquetes del material no fueron migrados.
-
-Desde la raíz:
+Requisitos: SDK compatible con net9.0, runtime ASP.NET Core 9 y, desde la capa Repository, una base SQL Server de práctica independiente.
 
 ```powershell
 dotnet restore src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.sln --configfile NuGet.Config
 dotnet build src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.sln --no-restore -c Release
 dotnet test src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.sln --no-build --no-restore -c Release
-$env:ASPNETCORE_ENVIRONMENT = 'Development'
-dotnet run --project src/Pacagroup.Ecommerce/Pacagroup.Ecommerce.Services.WebApi --no-launch-profile --urls http://127.0.0.1:5189
 ```
 
-El ejemplo responde en `/weatherforecast`; el documento OpenAPI está en `/openapi/v1.json` en Development. `/customers` todavía no existe. El test de plantilla pasa pero no contiene aserciones: no representa cobertura funcional.
+El test original es una plantilla vacía y no acredita cobertura funcional. Las comprobaciones adicionales realizadas se describen por etapa.
 
-`NuGet.Config` usa sólo nuget.org para no heredar feeds corporativos del equipo. No contiene credenciales y no modifica la configuración global.
+NuGet.Config usa sólo nuget.org, sin modificar feeds globales. Las cadenas de conexión y claves de autenticación de los recursos se sustituyen por valores vacíos cuando aparecen; la configuración local se suministra mediante variables de entorno y nunca se publica.
 
-## Historial real de reconstrucción
+## Procedencia y límites
 
-- `723b62a`: alcance, procedencia y exclusiones.
-- `8931384`: v01, estructura y contratos de dominio.
-- `be12105`: v02, inyección de dependencias del dominio.
+[Curso y temario público](https://www.udemy.com/course/arquitectura-aplicaciones-empresariales-con-net-core/). [Trazabilidad](docs/trazabilidad.md). Los manifiestos source-vNN.json registran archivos, hashes y normalizaciones por recurso. No se redistribuyen vídeos, PDF, ZIP ni archivos personales del IDE.
 
-Los commits usan la fecha real de reconstrucción. No simulan actividad pasada ni afirman que el alumno escribió el código original del instructor.
-
-## Verificación
-
-Ambas etapas compilaron sin errores ni advertencias; se ejecutó el test original y se verificaron respuestas HTTP reales del ejemplo y OpenAPI. En v02 también se comprobó resolución de DI y separación entre scopes. Detalles y límites en [validación](docs/validacion.md).
-
-## Procedencia
-
-[Curso y temario público](https://www.udemy.com/course/arquitectura-aplicaciones-empresariales-con-net-core/). Los manifiestos [v01](docs/source-v01.json) y [v02](docs/source-v02.json) registran hashes de los ZIP y de cada archivo seleccionado.
-
-Se conservan nombres y diseño del curso, normalizando sólo codificación y saltos de línea. No se añade una licencia de terceros ni se redistribuyen vídeos, PDF, ZIP, secretos o archivos personales del IDE. Los originales se mantuvieron intactos.
+Las etapas son material educativo, no una certificación de preparación para producción. La finalización declarada del curso no significa que todos sus recursos estén disponibles ni que su implementación completa ya esté publicada.
