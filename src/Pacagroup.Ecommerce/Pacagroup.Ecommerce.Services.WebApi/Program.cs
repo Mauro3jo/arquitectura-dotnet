@@ -1,6 +1,7 @@
 using Pacagroup.Ecommerce.Domain.Core;
 using Pacagroup.Ecommerce.Infrastructure.Repository;
 using Pacagroup.Ecommerce.Application.Main;
+using Pacagroup.Ecommerce.Services.WebApi.Modules.Swagger;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,13 +14,22 @@ builder.Services.AddOpenApi();
 builder.Services.AddDomainServices();
 builder.Services.AddInfrastructureServices();
 builder.Services.AddApplicationServices();
+builder.Services.AddSwagger();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI(c => {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+        c.RoutePrefix = "swagger";
+        c.DisplayRequestDuration();
+        c.EnableDeepLinking();
+        c.ShowExtensions();
+    });
+    //app.MapOpenApi();
 }
 
 app.UseHttpsRedirection();
